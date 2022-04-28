@@ -120,6 +120,128 @@ h4{
   font-size: 14px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+/* css reset */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins' , sans-serif;
+}
+li{
+  color: aliceblue;
+  list-style:none ;
+}
+body{
+  width: 100%;
+  background: #e51e2a;
+}
+.background-circulo{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width:100%;
+  height: 100%;
+  background:#161616 ;
+  /* fazer o efeito entre os backgrounds */
+  clip-path: circle(60% at right top );
+}
+.logo,.menu {
+  margin: 20px 0px 20px 30px;
+}
+.redes-sociais{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  right: 50px;
+}
+
+.redes-sociais li{
+position: relative;
+margin-left: 40px;
+top: -10rem;
+right: 10rem;
+
+}
+.redes-sociais li a{
+  background:white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30%;
+}
+.redes-sociais li a:hover{
+  background:#e51e2a
+}
+ul a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+ul a:hover{
+ font-size:25px ;
+  color: #161616;
+  font-weight: bold;
+}
+#menu-botao{
+  position: absolute;
+  top: 11rem;
+  float:left;
+  margin-left: 30px;
+  width: 100px;
+}
+#menu-botao:hover{
+  top: 10rem;
+  width: 110px;
+  cursor: pointer;
+}
+.menu{
+  position: absolute;
+  float:left;
+  margin: 8rem 0rem 0rem 2rem;
+  display: none;
+}
+.slide{
+  margin-top: 8rem;
+}
+.item{
+  margin-bottom: 35px;
+}
+.icone{
+    position: absolute;
+    margin-top: -8px;
+    margin-left: -36px;
+    width: 40px;
+    height: 40px;
+}
+.navegacao{
+  margin-left: 30px;
+}
+.conteudo{
+  margin: -5rem 0rem 0rem 24rem ;
+  display: flex;
+}
+.caixa-texto{
+margin-top: 15rem;
+}
+
+.caixa-texto h1{
+  font-size: 55px;
+  max-width: 500px;
+}
+.caixa-texto p{
+  color: white;
+  font-size: 20px;
+  max-width: 600px;
+}
+h4{
+  font-size: 14px;
+}
+
 /* swipper css */
 .swiper-container {
       width: 100%;
