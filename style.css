@@ -129,6 +129,9 @@ h4{
   box-sizing: border-box;
   font-family: 'Poppins' , sans-serif;
 }
+
+
+
 li{
   color: aliceblue;
   list-style:none ;
@@ -166,6 +169,7 @@ right: 10rem;
 
 }
 .redes-sociais li a{
+  position: relative;
   background:white;
   width: 50px;
   height: 50px;
@@ -189,35 +193,29 @@ ul a:hover{
 }
 #menu-botao{
   position: absolute;
-  top: 11rem;
+  top: 10rem;
   float:left;
   margin-left: 30px;
   width: 100px;
 }
 #menu-botao:hover{
-  top: 10rem;
   width: 110px;
   cursor: pointer;
 }
 .menu{
   position: absolute;
   float:left;
-  margin: 8rem 0rem 0rem 2rem;
+  margin: 6rem 0rem 0rem 2rem;
   display: none;
 }
+
 .slide{
   margin-top: 8rem;
 }
 .item{
   margin-bottom: 35px;
 }
-.icone{
-    position: absolute;
-    margin-top: -8px;
-    margin-left: -36px;
-    width: 40px;
-    height: 40px;
-}
+
 .navegacao{
   margin-left: 30px;
 }
@@ -227,26 +225,42 @@ ul a:hover{
 }
 .caixa-texto{
 margin-top: 15rem;
+min-width: 400px;
+margin-left:-100px
 }
 
 .caixa-texto h1{
   font-size: 55px;
-  max-width: 500px;
+
 }
 .caixa-texto p{
   color: white;
   font-size: 20px;
-  max-width: 600px;
+  max-width: 700px;
+
 }
 h4{
   font-size: 14px;
 }
 
 .swiper-container {
-  width: 750px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  width: 650px;
+  overflow: hidden;
+  margin-left:18rem;
+  margin-top:10rem;
+
 }
 .swiper-slide{
-  width: 300px;
+  width: 400px;
+
+}
+
+.lata{
+  margin-top:150px
+}
+
+.ks{
+  margin-left: 130px;
+  width: 200px;
+
 }

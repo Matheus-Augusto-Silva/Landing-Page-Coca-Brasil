@@ -1,8 +1,5 @@
-  $("#menu-botao").click(mostraMenu);
+$("#menu-botao").click(mostraMenu);
 
-  function mostraMenu(){
-   $(".menu").stop().slideToggle(500);
+function mostraMenu() {
+  $(".menu").stop().slideToggle(500);
 }
-
-
-
