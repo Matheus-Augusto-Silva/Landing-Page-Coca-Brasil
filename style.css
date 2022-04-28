@@ -242,31 +242,11 @@ h4{
   font-size: 14px;
 }
 
-/* swipper css */
 .swiper-container {
-      width: 100%;
-      padding-top: 50px;
-      padding-bottom: 50px;
-    }
-
-    .swiper-slide {
-      background-position: center;
-      background-size: cover;
-      width: 300px;
-      height: 300px;
-  }
-  .ks{
-    margin-top: 0rem;
-    margin-left: 10rem;
-  }
-  .lata{
-    margin-top: 12rem;
-  }
-  .imagem-box{
-    margin-top: 3rem;
-    width: 700px;
-    height: 747px;
-    display: flex;
-    justify-content: flex-end;
-
-  }
+  width: 750px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide{
+  width: 300px;
+}
